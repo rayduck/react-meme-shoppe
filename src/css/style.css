@@ -505,6 +505,10 @@ ul.order li span.count span {
   width: 150px;
   margin-right: 1rem;
 }
+.rightbtn {
+  float: right;
+  margin-top: 10px;
+}
 button,
 input[type=submit] {
   text-transform: uppercase;
@@ -523,8 +527,8 @@ input[type=submit][disabled] {
   color: #d12028;
   background: #fff;
   border-color: #d12028;
-  -webkit-transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
-          transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
+  -webkit-transform: rotate(-15deg) scale(2) translateX(-30%) translateY(-100%);
+          transform: rotate(-15deg) scale(2) translateX(-30%) translateY(-100%);
 }
 button[disabled]:hover,
 input[type=submit][disabled]:hover {

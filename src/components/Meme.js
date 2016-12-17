@@ -5,7 +5,7 @@ class Meme extends React.Component {
   render () {
     const { details, index } = this.props
     const isFresh = details.status === 'fresh'
-    const buttonText = isFresh ? 'Add To Order' : 'Meme\'s Dead!'
+    const buttonText = isFresh ? 'Add To Order' : 'Meme Dead!'
     return (
       <li className='menu-meme'>
         <img src={details.image} alt={details.name} />
@@ -14,7 +14,7 @@ class Meme extends React.Component {
           <span className='price'>{formatPrice(details.price)}</span>
         </h3>
         <p>{details.desc}</p>
-        <button onClick={() => this.props.addToOrder(index)} disabled={!isFresh}>{buttonText}</button>
+        <button className='rightbtn' onClick={() => this.props.addToOrder(index)} disabled={!isFresh}>{buttonText}</button>
       </li>
     )
   }
