@@ -2,7 +2,7 @@
 A shop interface for buying and selling memes.
 Built using react with firebase for db.
 
-[Visit the Meme Shoppe](https://shoppe.ironicme.me "shoppe.ironicme.me")
+[Visit the Meme Shoppe](http://shoppe.ironicme.me "shoppe.ironicme.me")
 
 
 ## Features
